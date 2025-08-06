@@ -1,5 +1,5 @@
 # FaultRando
-Tool for generating random bit or byte mutations of a binary
+Tool for generating random bit or byte fault mutations of a binary
 
 ## Setup
 
@@ -26,7 +26,7 @@ positional arguments:
 ```bash
 python rando.py ./Basic.bin bit-flip 10 100 ./test
 ```
-creates 100 mutants each with 10 bit flip mutations in the test folder for Basic.bin
+creates 100 mutants each with 10 bit-flip mutations in the test folder for Basic.bin
 
 ## Fault Models
 
