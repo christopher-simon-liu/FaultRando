@@ -27,3 +27,19 @@ positional arguments:
 python rando.py ./Basic.bin bit-flip 10 100 ./test
 ```
 creates 100 mutants each with 10 bit flip mutations in the test folder for Basic.bin
+
+## Fault Models
+
+original binary = 01000101
+
+byte-flip -> **10111010**
+
+byte-set -> **11111111**
+
+byte-reset -> **00000000**
+
+bit-flip -> **1**1000101
+
+bit-set -> **1**1000101
+
+bit-reset -> **0**1000101
